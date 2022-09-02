@@ -3,21 +3,15 @@ from distutils.extension import Extension
 from Cython.Build import cythonize
 import numpy
 
-
 """
-compilateur: Microsoft Visual C++ 2019 (MSVC) installé avec la version community de visual studio 2019
-version de python: Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)] on win32
+shell command: 
+python setup.py install
 
-Installation sur le pc d'un module cython
-
-ouvrez un shell widows (C:\Windows\System32\cmd.exe)
-Allez jusqu'au répertoire du ficier pyx
-tapez dans le shell: python setup.py install
-Si l'accès est refusé tapez:
+If access is denied:
 python setup.py install --user 
 """
 
-nom="pyHSSMsol" #nom du fichier pyx à compiler et également le nom du module une fois complilé
+nom="pyHSSMsol" #name of the pyx file to compile and also the name of the package
 
 extensions=[
 	Extension(
