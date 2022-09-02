@@ -1,0 +1,13 @@
+Required python packages:
+numpy
+scipy
+h5py
+cython
+matplotlib
+pandas
+tqdm
+matplotlib
+
+A C complier is also required 
+-linux: GCC (https://www.ubuntupit.com/how-to-install-and-use-gcc-compiler-on-linux-system/#:~:text=1%20Install%20GCC%20Compiler%20on%20Debian%2FUbuntu%20Linux%20On,GCC%20Compiler%20on%20Red%20Hat%20and%20Fedora%20Linux)
+-Windows: MSVC (https://visualstudio.microsoft.com/fr/)
